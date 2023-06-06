@@ -1,5 +1,5 @@
-print(col1_name + ',' + col2_name + ',' + col3_name + ',' + col4_name)
-print(first_val + ',' + second_val + ',' + third_val + ',' + fourth_val)
+print(f'{col1_name},{col2_name},{col3_name},{col4_name}')
+print(f'{first_val},{second_val},{third_val},{fourth_val}')
 
 
 DELIMITER = '\t'

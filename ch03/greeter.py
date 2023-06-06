@@ -13,13 +13,11 @@ class Greeter:
         current_hour = datetime.now().hour
 
         if current_hour < 12:
-            part_of_day = 'morning'
+            return 'morning'
         elif 12 <= current_hour < 17:
-            part_of_day = 'afternoon'
+            return 'afternoon'
         else:
-            part_of_day = 'evening'
-
-        return part_of_day
+            return 'evening'
 
     def greet(self, store):  # <3>
         print(f'Hi, my name is {self.name}, and welcome to {store}!')
@@ -38,13 +36,11 @@ def part_of_day():
     current_hour = datetime.now().hour
 
     if current_hour < 12:
-        part_of_day = 'morning'
+        return 'morning'
     elif 12 <= current_hour < 17:
-        part_of_day = 'afternoon'
+        return 'afternoon'
     else:
-        part_of_day = 'evening'
-
-    return part_of_day
+        return 'evening'
 
 
 # Referencing extracted functions inside the class

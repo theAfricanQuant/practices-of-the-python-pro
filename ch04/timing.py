@@ -23,5 +23,5 @@ def sort_cheap():
 
 if __name__ == '__main__':
     sort_expensive()
-    for i in range(1000):
+    for _ in range(1000):
         sort_cheap()

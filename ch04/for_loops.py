@@ -6,8 +6,8 @@ for name in names:
 
 # A single for loop containing multiple expressions
 names = ['Aliya', 'Beth', 'David', 'Kareem']
+greeting = 'Hi, my name is'
 for name in names:
-    greeting = 'Hi, my name is'
     print(f'{greeting} {name}')
 
 
